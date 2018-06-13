@@ -1,0 +1,15 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<h1>NEAT LIBRARY HOME </h1>
+<p>Welcome to <em>Neat Library, </em> a very classic library with collection if all modern day books</p>
+<h2>Dynamic contents</h2>
+<p>The Library has the following collection </p>
+<ul>
+	<li><strong>Books: </strong>{{num_books}}<li>
+	<li><STRONG>Copies Avaialble </STRONG> {{num_instances_avaiable}}</li>
+	<li><strong>Author:</strong>{{ num_author}}</li>
+	<!-- <li><strong>Copies: </strong>{{num_instances 
+	}}</li>-->
+	
+</ul>
+{% endblock %}
